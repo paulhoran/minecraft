@@ -29,7 +29,7 @@ groups:
       prefix: 'Admin'
       build: true
       suffix: ''
-  Member:
+  Player:
     default: true
     permissions:
     - automessage.receive.default
@@ -116,7 +116,7 @@ groups:
     inheritance:
     - g:essentials_builder
     info:
-      prefix: 'Member'
+      prefix: 'Player'
       build: true
       suffix: ''
   Owner:
