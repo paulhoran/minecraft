@@ -148,7 +148,7 @@ groups:
     - essentials.repair.armor
     - essentials.repair.enchanted
     inheritance:
-    - Member
+    - Player
     info:
       prefix: 'Builder'
       build: true
