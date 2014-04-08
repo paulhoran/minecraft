@@ -1,21 +1,21 @@
 # "For a more advanced configuration example utilizing the advanced features of GroupManager, see http://pastebin.com/a8ZA0j5G"
 users:
   Finnatron:
+    group: Admin
     subgroups:
     - Owner
-    permissions:
-    - groupmanager.noofflineperms
-    group: Admin
     info:
       prefix: '&d'
       suffix: Admin
+    permissions: []
   Newuser1:
+  group: Player
     subgroups: []
-    permissions: 
-    - groupmanager.noofflineperms
-    group: Player
     info:
-      prefix: '&d'
+      prefix: '&c'
       suffix: Player
+    permissions:
+    - groupmanager.noofflineperms
+  
  
     
