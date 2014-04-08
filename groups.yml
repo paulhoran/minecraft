@@ -56,7 +56,6 @@ groups:
     - essentials.rules
     - essentials.sell
     - essentials.sethome
-    - essentials.sethome.multiple
     - essentials.signs.use.*
     - essentials.spawn
     - essentials.suicide
@@ -99,8 +98,6 @@ groups:
     - factions.unclaim
     - factions.unclaimall
     - factions.version
-    - herochat.msg
-    - herochat.speak.global
     - multiverse.portal.access
     - multiverse.portal.access.*
     - nautomessage.receive.default
@@ -109,10 +106,7 @@ groups:
     - sg.arena.join.*
     - sg.arena.vote
     - sg.arenas.*
-    - sg.arenas.join.1
     - sg.lobby.join
-    - warpsigns.use*
-    - WarpSings.use
     inheritance:
     - g:essentials_builder
     info:
