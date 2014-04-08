@@ -26,4 +26,199 @@ groups:
     - g:bukkit_moderator
     - g:essentials_moderator
     info:
-      prefix: '
+      prefix: 'Admin'
+      build: true
+      suffix: ''
+  Member:
+    default: true
+    permissions:
+    - automessage.receive.default
+    - essential
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.compass
+    - essentials.delhome
+    - essentials.depth
+    - essentials.help
+    - essentials.home
+    - essentials.ignore
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.motd
+    - essentials.msg
+    - essentials.msg.format
+    - essentials.pay
+    - essentials.ping
+    - essentials.rules
+    - essentials.sell
+    - essentials.sethome
+    - essentials.sethome.multiple
+    - essentials.signs.use.*
+    - essentials.spawn
+    - essentials.suicide
+    - essentials.time
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.who
+    - faction.disband
+    - factions.autoclaim
+    - factions.chat
+    - factions.claim
+    - factions.create
+    - factions.deinvite
+    - factions.demote
+    - factions.desc
+    - factions.description
+    - factions.disband
+    - factions.help
+    - factions.home
+    - factions.invite
+    - factions.join
+    - factions.kick
+    - factions.leader
+    - factions.leave
+    - factions.list
+    - factions.map
+    - factions.mod
+    - factions.officer
+    - factions.open
+    - factions.owner
+    - factions.ownerlist
+    - factions.promote
+    - factions.relation
+    - factions.sethome
+    - factions.show
+    - factions.tag
+    - factions.title
+    - factions.unclaim
+    - factions.unclaimall
+    - factions.version
+    - herochat.msg
+    - herochat.speak.global
+    - multiverse.portal.access
+    - multiverse.portal.access.*
+    - nautomessage.receive.default
+    - playerrider.beridden
+    - sg.arena.join
+    - sg.arena.join.*
+    - sg.arena.vote
+    - sg.arenas.*
+    - sg.arenas.join.1
+    - sg.lobby.join
+    - warpsigns.use*
+    - WarpSings.use
+    inheritance:
+    - g:essentials_builder
+    info:
+      prefix: 'Member'
+      build: true
+      suffix: ''
+  Owner:
+    default: false
+    permissions:
+    - -vanish.*
+    - '*'
+    inheritance:
+    - g:essentials_admin
+    - g:bukkit_admin
+    - g:groupmanager_admin
+    info:
+      prefix: 'Owner'
+      build: true
+      suffix: ''
+  Builder:
+    default: false
+    permissions:
+    - automessage.receive.vip
+    - disguisecraft.mob.*
+    - essentials.chat.color
+    - essentials.chat.format
+    - essentials.chat.magic
+    - essentials.hat
+    - essentials.heal
+    - essentials.nick
+    - essentials.recipe
+    - essentials.repair
+    - essentials.repair.armor
+    - essentials.repair.enchanted
+    inheritance:
+    - Member
+    info:
+      prefix: 'Builder'
+      build: true
+      suffix: ''
+  Moderator:
+    default: false
+    permissions:
+    - essentials unbanip
+    - essentials.ban
+    - essentials.broadcast
+    - essentials.i
+    - essentials.kick
+    - essentials.mute
+    - essentials.socialspy
+    - essentials.unban
+    - essentials.weather
+    inheritance:
+    - premium
+    - g:bukkit_moderator
+    - g:essentials_moderator
+    info:
+      prefix: 'Moderator'
+      build: true
+      suffix: ''
+  Deluxe:
+    default: false
+    permissions:
+    - disguisecraft.mob.*
+    - essentials.chat.color
+    - essentials.chat.format
+    - essentials.chat.magic
+    - essentials.heal
+    - essentials.nick
+    - essentials.ptime
+    - essentials.repair
+    - essentials.repair.armor
+    - essentials.repair.enchanted
+    - gamemode.gm
+    - gamemoder.change
+    - gamemoder.gm
+    inheritance:
+    - Builder
+    info:
+      prefix: 'Deluxe'
+      build: true
+      suffix: ''
+  Premium:
+    default: false
+    permissions:
+    - disguisecraft.mob.*
+    - essentials.chat.color
+    - essentials.chat.format
+    - essentials.chat.magic
+    - essentials.enchant
+    - essentials.heal
+    - essentials.jump
+    - essentials.nick
+    - essentials.nick.color
+    - essentials.recipe
+    - essentials.repair
+    - essentials.repair.armor
+    - essentials.repair.enchanted
+    - essentials.top
+    - essentials.tptoggle
+    - gamemode.gm
+    - gamemoder.gm
+    - playerrider.ride
+    inheritance:
+    - deluxe
+    info:
+      prefix: 'Premium'
+      build: true
+      suffix: ''
