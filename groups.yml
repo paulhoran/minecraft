@@ -1,0 +1,29 @@
+# Group inheritance
+#
+# Any inherited groups prefixed with a g: are global groups
+# and are inherited from the GlobalGroups.yml.
+#
+# Groups without the g: prefix are groups local to this world
+# and are defined in the this groups.yml file.
+#
+# Local group inheritances define your promotion tree when using 'manpromote/mandemote'
+
+groups:
+  Admin:
+    default: false
+    permissions:
+    - essentials unbanip
+    - essentials.ban
+    - essentials.broadcast
+    - essentials.kick
+    - essentials.mute
+    - essentials.nick
+    - essentials.unban
+    - essentials.weather
+    inheritance:
+    - moderator
+    - g:groupmanager_moderator
+    - g:bukkit_moderator
+    - g:essentials_moderator
+    info:
+      prefix: '
