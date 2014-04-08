@@ -17,8 +17,7 @@ groups:
 # http://wiki.ess3.net
 
   g:groupmanager_default:
-    permissions:
-    - groupmanager.notify.self
+    permissions: []
 
   g:groupmanager_moderator:
     permissions:
