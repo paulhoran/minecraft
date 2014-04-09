@@ -31,7 +31,7 @@ groups:
       suffix: ''
   Player:
     default: true
-    permissions:[]
+    permissions:
     inheritance:
     - g:essentials_builder
     - g:groupmanager_Player
