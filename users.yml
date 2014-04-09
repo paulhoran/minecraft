@@ -9,11 +9,42 @@ users:
       prefix: &d. Admin
       suffix: 
     permissions: []
-  Newuser1:
-  group: Player
-    subgroups: []
+  dbear808:
+    group: Admin
+    subgroups:
+    - Builder
+    - Moderator
     info:
-      prefix: &c.Player
+      prefix: &d. Admin
+      suffix: 
+    permissions:
+    - groupmanager.noofflineperms
+  colinjamesbond:
+    group: Admin
+    subgroups:
+    - Builder
+    - Moderator
+    info:
+      prefix: &d. Admin
+      suffix: 
+    permissions:
+    - groupmanager.noofflineperms
+  djskateboard:
+    group: Admin
+    subgroups:
+    - Builder
+    - Moderator
+    info:
+      prefix: &d. Admin
+      suffix: 
+    permissions:
+    - groupmanager.noofflineperms
+  Pitokie Mod:
+    group: Moderator
+    subgroups:
+    - Builder
+    info:
+      prefix: &a. Moderator
       suffix: 
     permissions:
     - groupmanager.noofflineperms
