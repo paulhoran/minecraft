@@ -34,6 +34,11 @@ groups:
     permissions:[]
     inheritance:
     - g:essentials_builder
+    - g:groupmanager_Player
+    - g:essentials_Player
+    - g:faction_player
+    - g:multiverse_Player
+    - g:sg_Player
     info:
       prefix: 'Player'
       build: true
