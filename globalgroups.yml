@@ -16,7 +16,7 @@ groups:
 # by ElgarL, snowleo, continued from gabrielcouto's original
 # http://wiki.ess3.net
 
-  g:groupmanager_default:
+  g:groupmanager_Player:
     permissions: []
 
   g:groupmanager_moderator:
@@ -43,7 +43,7 @@ groups:
 # by many devs and contributors
 # http://dl.bukkit.org/
 
-  g:bukkit_default:
+  g:bukkit_Player:
     permissions:
     - bukkit.broadcast.user
     - -bukkit.command.plugins
@@ -136,6 +136,9 @@ groups:
     - essentials.tpahere
     - essentials.tpdeny
     - essentials.who
+    
+  g:faction_Player:
+    permissions:
     - faction.disband
     - factions.autoclaim
     - factions.chat
@@ -169,10 +172,14 @@ groups:
     - factions.unclaim
     - factions.unclaimall
     - factions.version
+
+  g:essentials_Player:
+    permissions:
     - multiverse.portal.access
     - multiverse.portal.access.*
-    - nautomessage.receive.default
-    - playerrider.beridden
+    
+  g:essentials_Player:
+    permissions:
     - sg.arena.join
     - sg.arena.join.*
     - sg.arena.vote
