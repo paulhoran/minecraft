@@ -25,25 +25,25 @@ settings:
         # the element 'all_unnamed_worlds' specifies all worlds that aren't listed, and automatically mirrors them to it's parent.
         # Each child world can be configured to mirror the 'groups', 'users' or both files from its parent.
     world:
-      world nether
+      world nether:
       - groups
       - usres
-      flatroom
+      flatroom:
       - groups
       - users
-      end of world
+      end of world:
       - groups
       - users
-      Pvp
+      Pvp:
       - groups
       - users
-      End
+      End:
       - groups
       - users
-      ClanWars
+      ClanWars:
       - groups
       - users
-      AriesCraft
+      AriesCraft:
       - groups
       - users
         #  world2:      (World2 would have it's own set of user and groups files)
