@@ -49,6 +49,8 @@ settings:
       SG:
       - Groups
       - Users
+      Plotworld:
+      - users
       
         #  world2:      (World2 would have it's own set of user and groups files)
         #    world3:
