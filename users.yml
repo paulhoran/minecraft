@@ -6,15 +6,15 @@ users:
     - Admin
     - Moderator
     info:
-      prefix: &d
-      suffix: Admin
+      prefix: &d. Admin
+      suffix: 
     permissions: []
   Newuser1:
   group: Player
     subgroups: []
     info:
-      prefix: &c
-      suffix: Player
+      prefix: &c.Player
+      suffix: 
     permissions:
     - groupmanager.noofflineperms
   
