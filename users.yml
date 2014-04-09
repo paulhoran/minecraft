@@ -6,7 +6,7 @@ users:
     - Admin
     - Moderator
     info:
-      prefix: &d. Admin
+      prefix: &d Admin
       suffix: 
     permissions: []
   dbear808:
@@ -15,7 +15,7 @@ users:
     - Builder
     - Moderator
     info:
-      prefix: &d. Admin
+      prefix: &d Admin
       suffix: 
     permissions:
     - groupmanager.noofflineperms
@@ -25,7 +25,7 @@ users:
     - Builder
     - Moderator
     info:
-      prefix: &d. Admin
+      prefix: &d Admin
       suffix: 
     permissions:
     - groupmanager.noofflineperms
@@ -35,7 +35,7 @@ users:
     - Builder
     - Moderator
     info:
-      prefix: &d. Admin
+      prefix: &d Admin
       suffix: 
     permissions:
     - groupmanager.noofflineperms
@@ -44,7 +44,7 @@ users:
     subgroups:
     - Builder
     info:
-      prefix: &a. Moderator
+      prefix: &a Moderator
       suffix: 
     permissions:
     - groupmanager.noofflineperms
