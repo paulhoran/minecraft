@@ -173,12 +173,12 @@ groups:
     - factions.unclaimall
     - factions.version
 
-  g:essentials_Player:
+  g:multiverse_Player:
     permissions:
     - multiverse.portal.access
     - multiverse.portal.access.*
     
-  g:essentials_Player:
+  g:sg_Player:
     permissions:
     - sg.arena.join
     - sg.arena.join.*
