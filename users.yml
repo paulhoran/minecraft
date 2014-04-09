@@ -6,14 +6,14 @@ users:
     - Admin
     - Moderator
     info:
-      prefix: '&d'
+      prefix: &d
       suffix: Admin
     permissions: []
   Newuser1:
   group: Player
     subgroups: []
     info:
-      prefix: '&c'
+      prefix: &c
       suffix: Player
     permissions:
     - groupmanager.noofflineperms
