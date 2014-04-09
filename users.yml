@@ -39,7 +39,7 @@ users:
       suffix: 
     permissions:
     - groupmanager.noofflineperms
-  Pitokie Mod:
+  Pitokie:
     group: Moderator
     subgroups:
     - Builder
